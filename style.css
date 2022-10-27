@@ -30,6 +30,15 @@ ul li {
 .bg img {
     width: 100%;
 }
+.bg { 
+    position: relative;
+}
+h1 {
+    color: black;
+    font-size: 70px;
+    font-weight: 600;
+    position: absolute;
+}
 /* main */
 .mainTop {
     margin: auto;
@@ -39,7 +48,7 @@ ul li {
     font-family: 'Poppins', sans-serif;
 }
 h3 {
-    width: 50%;
+    width: 45%;
     color: white;
     font-size: 30px;
     font-weight: 600;
@@ -87,24 +96,34 @@ h3 {
 }    
 .footerBot {
     margin-top: 50px;
-    width: 60%;
+    width: 100%;
     display: flex;
     font-size: 12px;
     color: #666666;
     justify-content: space-between;
+    align-items: flex-start;
 } 
+.footerBot img {
+    margin-top: 15px;
+    width: 5%;
+}
 .footerP ul {
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: space-evenly;
-    justify-content: start;
+}
+.footerBot ul li {
+    border-right: solid 1px #666666;
 }
 .footerP {
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+.footerP p {
+    padding-left: 40px;
+}
 .footerBot img {
     width: 12%;
-
 }
